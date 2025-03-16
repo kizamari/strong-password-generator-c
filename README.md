@@ -6,6 +6,6 @@ Random password generation using uppercase letters, lowercase letters, numbers, 
 Random seed to ensure the generated password is different on each execution (srand(time(NULL)));
 # dependencies:
 Standard C library -> <stdio.h>, <stdlib.h>, <time.h>, <string.h>.
-# how to Use:
+# how to use:
 Compile the code using a C compiler;
 Run the "main.c".
