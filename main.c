@@ -12,7 +12,7 @@ void generate_password(char* password) {
     const char symbols[] = "!@#$%^&*()_-+=<>?";
 
     // seed the random number generator with the current time
-    srand(time(NULL));  // Ensures different random numbers on each execution
+    srand(time(NULL));  // ensures different random numbers on each execution
 
     // loop through the password and randomly select characters
     for (int i = 0; i < 12; i++) {  // Fixed password length of 12 characters
@@ -31,7 +31,7 @@ void generate_password(char* password) {
     }
 
     // add a null terminator at the end of the string
-    password[12] = '\0';  // Null-terminate the password string
+    password[12] = '\0';  // null-terminate the password string
 }
 
 int main() {
